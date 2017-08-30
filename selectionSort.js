@@ -19,9 +19,6 @@ for (var index = 0; index < arraySize; index++) {
   array.push(randomNumber);
 }
 
-// ================================================
-// SOLUTION - Selection Sort
-// ================================================
 
 function swap(items, firstIndex, secondIndex) {
   var temp = items[firstIndex];
