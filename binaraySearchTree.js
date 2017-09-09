@@ -15,9 +15,7 @@ var BinarySearchTree = function(){
 }
 
 //adding a function for inserting a new node to the tree
-//function declaration inside of a prototype function!?! 
-//Look at prototype-based inheritance
-//honestly it is not the focus of this lesson - but may prove interesting
+
 BinarySearchTree.prototype.insert = function(value){
   //if there is no head already set (no nodes in the tree)
   if (this.head === null){
@@ -59,9 +57,7 @@ BinarySearchTree.prototype.insert = function(value){
 }
 
 //adding a function to BinarySearchTree to do a search to be used for delete 
-//function declaration inside of a prototype function!?! 
-//Look at prototype-based inheritance
-//honestly it is not the focus of this lesson - but may prove interesting
+
 BinarySearchTree.prototype.search = function(target){
   var check = false;
   //create a function for 
@@ -138,8 +134,6 @@ BinarySearchTree.prototype.delete = function(deleteValue){
   
   console.log(deleteValue + ' has been deleted from the tree');
 }
-
-
 
 var test = new BinarySearchTree();
 
