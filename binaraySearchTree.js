@@ -139,6 +139,8 @@ BinarySearchTree.prototype.delete = function(deleteValue){
   console.log(deleteValue + ' has been deleted from the tree');
 }
 
+
+
 var test = new BinarySearchTree();
 
 test.insert(100);
